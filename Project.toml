@@ -1,6 +1,6 @@
 name = "mpif_jll"
 uuid = "9aeb927a-4695-514f-a259-621a69f20ec0"
-version = "0.1.3+0"
+version = "0.1.5+0"
 
 [deps]
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
@@ -20,7 +20,7 @@ MicrosoftMPI_jll = "9237b28f-5490-5468-be7b-bb81f5f5e6cf"
 MPIPreferences = "0.1"
 Libdl = "< 0.0.1, 1"
 LazyArtifacts = "< 0.0.1, 1"
-MPIABI_jll = "0.1.2"
+MPIABI_jll = "0.1.3"
 JLLWrappers = "1.7.0"
 MPICH_jll = "4.3.0, 5"
 Artifacts = "< 0.0.1, 1"
