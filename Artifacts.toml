@@ -1,17 +1,17 @@
 [[mpif]]
 arch = "aarch64"
-git-tree-sha1 = "12af220d7c5fb115ab29d1c110294bc67489f119"
+git-tree-sha1 = "6130f8e7a9bc45393fcf76ef4e39d8992019dfa1"
 lazy = true
 libgfortran_version = "5.0.0"
 mpi = "mpiabi"
 os = "macos"
 
     [[mpif.download]]
-    sha256 = "6d5cbd9a35693be4569fdf1c026ddbffb46d8cc6c59c6ee78a439fdd2e74ffef"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.aarch64-apple-darwin-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "d01f5732e60e7e4305bf0b7690f3fadee57e2e5f82ba96c8125b18f202e52ec8"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.aarch64-apple-darwin-libgfortran5-mpi+mpiabi.tar.gz"
 [[mpif]]
 arch = "aarch64"
-git-tree-sha1 = "82f366ed1322f09e2b328ac98c2c706d240055be"
+git-tree-sha1 = "3c8a6435809e0a92c13c971d3644b676455e4eea"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -19,11 +19,11 @@ mpi = "mpiabi"
 os = "linux"
 
     [[mpif.download]]
-    sha256 = "62ef1168b30f4bbda4c937126395bd4a72bd4c107a6d9bc049d56ff965aa9d58"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.aarch64-linux-gnu-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "4e7cdf59ccd88b3416b314901b2c9e2c8d6ba0737e1282a1841ab8f0824fe589"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.aarch64-linux-gnu-libgfortran5-mpi+mpiabi.tar.gz"
 [[mpif]]
 arch = "aarch64"
-git-tree-sha1 = "ab02f143089de6fdb24eee4c332efaa900e87849"
+git-tree-sha1 = "44bc6cc613ea1a4607cc4971d0be8836ab11d663"
 lazy = true
 libc = "musl"
 libgfortran_version = "5.0.0"
@@ -31,23 +31,23 @@ mpi = "mpiabi"
 os = "linux"
 
     [[mpif.download]]
-    sha256 = "804ea6f0c2c764e932bb1b689c930ce313f3d5e20f164e5803763c95e8d0030d"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.aarch64-linux-musl-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "2f1711cf1c223a277050d7f56d023e5b3024615440fc36fcbfc6de9795d8b800"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.aarch64-linux-musl-libgfortran5-mpi+mpiabi.tar.gz"
 [[mpif]]
 arch = "aarch64"
-git-tree-sha1 = "9dd778d3728cafb1f4e09a444dbfe6f695dc6f5a"
+git-tree-sha1 = "a615c0b5d9c671be8bb003fc264bcc11bb549d83"
 lazy = true
 libgfortran_version = "5.0.0"
 mpi = "mpiabi"
 os = "freebsd"
 
     [[mpif.download]]
-    sha256 = "279f1333b5b3b3df2effd99c6dcd263869d70ac8e1cbb786626581e02164821e"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.aarch64-unknown-freebsd-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "075c9010f6c62adeb22b546f4cd6e447c262c76288c2a77de21852f46248e5fc"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.aarch64-unknown-freebsd-libgfortran5-mpi+mpiabi.tar.gz"
 [[mpif]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "814275b5e9789ad7c136eba84b7336a24377e78f"
+git-tree-sha1 = "b9075b4d2b9033f046dba6f0163ca5f9923cbeec"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -55,12 +55,12 @@ mpi = "mpiabi"
 os = "linux"
 
     [[mpif.download]]
-    sha256 = "ad9f5c05acc8519f19eea1b95b9af1f1d6a30b028cd7552272191ddee993423e"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.armv6l-linux-gnueabihf-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "a66b4c296e690ec87035e1b91164066378674dc57a8a09bfba328e93531ebb8a"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.armv6l-linux-gnueabihf-libgfortran5-mpi+mpiabi.tar.gz"
 [[mpif]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "f21fa01844728b1c53c612ae448752e17940f3fd"
+git-tree-sha1 = "9ea839a063f98a694b73667f091e9e9c11dde443"
 lazy = true
 libc = "musl"
 libgfortran_version = "5.0.0"
@@ -68,12 +68,12 @@ mpi = "mpiabi"
 os = "linux"
 
     [[mpif.download]]
-    sha256 = "dccbc7f26e03b6016ef04ae534f6589c1759e66fde9d359e64dfa91212364e7b"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.armv6l-linux-musleabihf-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "38d25e1ae856f7a37455ba31539e6881ba81f0b77797d952de035fbf9bd9d0fc"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.armv6l-linux-musleabihf-libgfortran5-mpi+mpiabi.tar.gz"
 [[mpif]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "e7b60b10e2a4987aaf5ab9f17e311994d768d937"
+git-tree-sha1 = "8639b6750c1dde512607f055cf8d192152f8c3c6"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -81,12 +81,12 @@ mpi = "mpiabi"
 os = "linux"
 
     [[mpif.download]]
-    sha256 = "fa965b6b3a9d22b55b2e72332cb16ff62240643600573731bce75578c1e0edde"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.armv7l-linux-gnueabihf-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "f65416f02cc92e7bf45279999e7bdd14391b9d3455069e8e483b5f9c92fa5691"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.armv7l-linux-gnueabihf-libgfortran5-mpi+mpiabi.tar.gz"
 [[mpif]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "237481ffb8837414c8d3646ed88a6107b76566d6"
+git-tree-sha1 = "582bbb10049f4e8a1f213131c36f0c7a42ac5bce"
 lazy = true
 libc = "musl"
 libgfortran_version = "5.0.0"
@@ -94,11 +94,11 @@ mpi = "mpiabi"
 os = "linux"
 
     [[mpif.download]]
-    sha256 = "5862fe243e981008d0670386dc131cc045080e1f0899f6e48c8eb312c604b65f"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.armv7l-linux-musleabihf-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "691c75d469b03e4a31b2e8eb5ffca6732eac036183d208c191aae1056c3b72ab"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.armv7l-linux-musleabihf-libgfortran5-mpi+mpiabi.tar.gz"
 [[mpif]]
 arch = "i686"
-git-tree-sha1 = "eb02d0419d00346586007058063a29723e657485"
+git-tree-sha1 = "580b0aea5f606b3b6ed0e26ef6b0f241c5623806"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -106,11 +106,11 @@ mpi = "mpiabi"
 os = "linux"
 
     [[mpif.download]]
-    sha256 = "8dcf64bfa13a7842a7a71efc854394cff466e80630bb68369443275b0be60720"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.i686-linux-gnu-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "ffe5d834ec69d85d512fa9d4a4935a73492dc89f26cc3e398114244430379893"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.i686-linux-gnu-libgfortran5-mpi+mpiabi.tar.gz"
 [[mpif]]
 arch = "i686"
-git-tree-sha1 = "0322d392191131e35804157f34ba5ba50a920d94"
+git-tree-sha1 = "c013a3c4d92dff67d9b366366d5e8d50b2308033"
 lazy = true
 libc = "musl"
 libgfortran_version = "5.0.0"
@@ -118,11 +118,11 @@ mpi = "mpiabi"
 os = "linux"
 
     [[mpif.download]]
-    sha256 = "f2e8575a395e3327097f1531f4e13666a65e10693576b40c0dbec90eb1b27b29"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.i686-linux-musl-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "dde10508f3d8a431762fda09a30d882811e6a98be96f261431a110c4cd40c694"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.i686-linux-musl-libgfortran5-mpi+mpiabi.tar.gz"
 [[mpif]]
 arch = "powerpc64le"
-git-tree-sha1 = "6edfd9a240a4b8a33a4e6153baffbc60b7d396da"
+git-tree-sha1 = "bb020e418c2c7e901a4042fbef642c38e776c483"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -130,11 +130,11 @@ mpi = "mpiabi"
 os = "linux"
 
     [[mpif.download]]
-    sha256 = "8c2cdbb40dee313b5a0f83dc4866aa6cb47bd0ce99c0e7e8393ac19cd6d8cbec"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.powerpc64le-linux-gnu-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "07884d4081ddfda91b2f70873cbbd204c2389f23e4d0f37dcad9f27180a57808"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.powerpc64le-linux-gnu-libgfortran5-mpi+mpiabi.tar.gz"
 [[mpif]]
 arch = "riscv64"
-git-tree-sha1 = "9513b19c69f749fbb4787d2d14679c96e0d5425a"
+git-tree-sha1 = "d3bbc9e9d86c4c6be62f8cf69d9a538789ba3dda"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -142,22 +142,22 @@ mpi = "mpiabi"
 os = "linux"
 
     [[mpif.download]]
-    sha256 = "3692d8f4e8f659035cee003e34454c9c6700c86dd6a451d252bb06f9c95543ee"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.riscv64-linux-gnu-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "82872c627255ab34f90e66c8debfd2d74fa685dad1fd8f24db35664c3c52f77c"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.riscv64-linux-gnu-libgfortran5-mpi+mpiabi.tar.gz"
 [[mpif]]
 arch = "x86_64"
-git-tree-sha1 = "5bda6747d8438e4fcd372de505cba2d8f3dcbf38"
+git-tree-sha1 = "3698d27254b7482c065ae34efa98b1cb99f9bdff"
 lazy = true
 libgfortran_version = "5.0.0"
 mpi = "mpiabi"
 os = "macos"
 
     [[mpif.download]]
-    sha256 = "05fba8b10f77a689c96e51bf713d7412356e0e5eaae24dfde95572d324bb2e4b"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.x86_64-apple-darwin-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "c94270531c2a7c2d55a8f8340ad9a329f8dc80ab6dc293d8ac4da780c3cf0f41"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.x86_64-apple-darwin-libgfortran5-mpi+mpiabi.tar.gz"
 [[mpif]]
 arch = "x86_64"
-git-tree-sha1 = "e3259a7dba6e97f1c12390cf8b9f5b0a27b7ff6c"
+git-tree-sha1 = "b12e5752c200b2965c737275f977710a5c80186f"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -165,11 +165,11 @@ mpi = "mpiabi"
 os = "linux"
 
     [[mpif.download]]
-    sha256 = "968245ae21c749e54a7f33bf76f969dc4bd27ddcdd69be48a838d2b417c5b22c"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.x86_64-linux-gnu-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "5ca988f9a026249d52d894c9a89faabecc45dc335f0e4a03e55f66ca8cfc37ec"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.x86_64-linux-gnu-libgfortran5-mpi+mpiabi.tar.gz"
 [[mpif]]
 arch = "x86_64"
-git-tree-sha1 = "9a6241608f9b8d6878fa3f7608849c9e2f1a462a"
+git-tree-sha1 = "804171993508acfefcb2167547f1cb2d859ebd21"
 lazy = true
 libc = "musl"
 libgfortran_version = "5.0.0"
@@ -177,16 +177,16 @@ mpi = "mpiabi"
 os = "linux"
 
     [[mpif.download]]
-    sha256 = "d5d79711ccadaeb9d5d7e0a295215dd66b2ae502f68ccfef600630def343d254"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.x86_64-linux-musl-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "c5a8f473025dd6e4d7d7c286df4164155f1a5058296175d72d5c818b2647e0cf"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.x86_64-linux-musl-libgfortran5-mpi+mpiabi.tar.gz"
 [[mpif]]
 arch = "x86_64"
-git-tree-sha1 = "350befcfdd205f80932e52235dcc709e246ae39d"
+git-tree-sha1 = "93194b25019a4483ea6c7c5636406f6dfd7ddfdd"
 lazy = true
 libgfortran_version = "5.0.0"
 mpi = "mpiabi"
 os = "freebsd"
 
     [[mpif.download]]
-    sha256 = "39c7101e3ba6691de4dc069f6ae54b7f7974338bef17bac6ce4dff09d2f47c1b"
-    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.5+0/mpif.v0.1.5.x86_64-unknown-freebsd-libgfortran5-mpi+mpiabi.tar.gz"
+    sha256 = "f3ef2985fe173485636d1ea87e9f4631166e29b92eb2c96fdeab92a9d5eabd55"
+    url = "https://github.com/JuliaBinaryWrappers/mpif_jll.jl/releases/download/mpif-v0.1.6+0/mpif.v0.1.6.x86_64-unknown-freebsd-libgfortran5-mpi+mpiabi.tar.gz"
