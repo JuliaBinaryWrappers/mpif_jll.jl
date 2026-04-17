@@ -1,6 +1,6 @@
 name = "mpif_jll"
 uuid = "9aeb927a-4695-514f-a259-621a69f20ec0"
-version = "0.1.6+0"
+version = "0.1.7+0"
 
 [deps]
 MPIPreferences = "3da0fdf6-3ccc-4f1b-acd9-58baa6c99267"
