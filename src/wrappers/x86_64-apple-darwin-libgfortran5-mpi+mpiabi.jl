@@ -4,12 +4,12 @@ export libmpif
 using CompilerSupportLibraries_jll
 using MPIABI_jll
 JLLWrappers.@generate_wrapper_header("mpif")
-JLLWrappers.@declare_library_product(libmpif, "@rpath/libmpif.0.dylib")
+JLLWrappers.@declare_library_product(libmpif, "@rpath/libmpif.1.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, MPIABI_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libmpif,
-        "lib/libmpif.0.1.7.dylib",
+        "lib/libmpif.1.0.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
