@@ -9,7 +9,7 @@ function __init__()
     JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, MPIABI_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libmpif,
-        "lib/libmpif.1.0.0.dylib",
+        "lib/libmpif.1.0.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
